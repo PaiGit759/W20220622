@@ -1,0 +1,121 @@
+:root {
+    --color1: rgba(112, 107, 107, 0.9);
+    --color2: rgb(240, 248, 7);
+    --color3: rgba(195, 196, 187, 0.76);
+    --color4: rgb(248, 5, 232);
+}
+
+body {
+    background-color: rgba(19, 12, 4, 0.962);
+    height: 600px;
+}
+
+.style_head1 {
+    position: fixed;
+    background-color: var(--color1);
+    top: 1%;
+    width: 99%;
+    height: 7%;
+    margin: 0;
+    border: 1px solid red;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.style_foot1 {
+    position: fixed;
+    background-color: var(--color1);
+    bottom: 0;
+    width: 99%;
+    height: 7%;
+    margin: 0;
+    border: 1px solid red;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.style_main {
+    position: relative;
+    top: 9.5%;
+    width: 100%;
+    height: 87%;
+    margin: 0;
+}
+
+.style_div1 {
+    display: inline;
+    position: absolute;
+    width: 18%;
+    height: 100%;
+    border: 1px solid red;
+    text-align: center;
+    top: 0;
+    margin: 5px;
+    background-color: var(--color1);
+    border-radius: 15px;
+}
+
+.style_div2 {
+    display: inline;
+    position: absolute;
+    top: 0;
+    left: 19%;
+    width: 61%;
+    height: 100%;
+    border: 1px solid red;
+    margin: 5px;
+    background-color: var(--color1);
+    border-radius: 15px;
+    text-align: center;
+}
+
+.style_div3 {
+    display: inline;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 18%;
+    height: 100%;
+    border: 1px solid red;
+    margin: 5px;
+    background-color: var(--color1);
+    border-radius: 15px;
+    text-align: center;
+}
+
+.style_div4 {
+    width: 98%;
+    height: 10%;
+    border: 1px solid red;
+    margin: 5px;
+    background-color: var(--color3);
+    border-radius: 15px;
+    text-align: center;
+}
+
+.style_div5 {
+    width: 98%;
+    height: 65%;
+    border: 1px solid red;
+    margin: 5px;
+    background-color: var(--color3);
+    border-radius: 15px;
+    text-align: center;
+}
+
+.style_text1 {
+    color: var(--color2);
+    font-size: large;
+    margin: 10px;
+}
+
+.style_a1 {
+    color: var(--color4);
+    font-size: large;
+    padding: 20px;
+}
+
+.style_a1:hover {
+    color: var(--color2);
+    font-size: xx-large;
+}
